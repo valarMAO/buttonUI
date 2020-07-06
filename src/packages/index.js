@@ -1,6 +1,5 @@
 import Button from './Button.vue'
 import Icon from './Icon.vue'
-import ButtonGroup from './ButtonGroup.vue'
 
 const install = (Vue)=>{
 	//require.context("路径"，"是否遍历子路径"，"文件后缀名")用于大量导入模块

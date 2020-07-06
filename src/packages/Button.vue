@@ -119,21 +119,21 @@ $active-color: #3a8ee6;
     outline: none;
   }
   &.is-plain {
-    border-color: #dcdfe6;
-    color: #606266;
+    border-color: $border-color;
+    color: $color;
     fill:#fff;
   }
   &.is-plain:hover,
   &.is-plain:focus {
     background: #fff;
-    border-color: #409eff;
-    color: #409eff;
+    border-color: $primary;
+    color: $primary;
     fill:#fff;
   }
   &.is-plain:active {
     background: #fff;
-    border-color: #3a8ee6;
-    color: #3a8ee6;
+    border-color: $active-color;
+    color: $active-color;
     outline: none;
     fill:#fff;
   }
@@ -175,35 +175,35 @@ $active-color: #3a8ee6;
 }
 .y-button-primary {
   color: #fff;
-  background-color: #409eff;
-  border-color: #409eff;
+  background-color: $primary;
+  border-color: $primary;
   fill:#fff;
   &:hover,
   &:focus {
-    background: #66b1ff;
-    border-color: #66b1ff;
+    background: $primary-hover;
+    border-color: $primary-hover;
     color: #fff;
   }
   &:active {
-    background: #3a8ee6;
-    border-color: #3a8ee6;
+    background: $active-color;
+    border-color: $active-color;
     color: #fff;
     outline: none;
   }
   &.is-plain {
-    background: #ecf5ff;
-    border-color: #b3d8ff;
-    color: #409eff;
+    background: $background;
+    border-color: $primary-plain-br;
+    color: $primary;
   }
   &.is-plain:hover,
   &.is-plain:focus {
-    background: #409eff;
-    border-color: #409eff;
+    background: $primary;
+    border-color: $primary;
     color: #fff;
   }
   &.is-plain:active {
-    background: #3a8ee6;
-    border-color: #3a8ee6;
+    background: $active-color;
+    border-color: $active-color;
     color: #fff;
     outline: none;
   }
@@ -219,35 +219,35 @@ $active-color: #3a8ee6;
 
 .y-button-success {
   color: #fff;
-  background-color: #67c23a;
-  border-color: #67c23a;
+  background-color: $success;
+  border-color: $success;
   fill:#fff;
   &:hover,
   &:focus {
-    background: #85ce61;
-    border-color: #85ce61;
+    background: $success-hover;
+    border-color: $success-hover;
     color: #fff;
   }
   &:active {
-    background: #5daf34;
-    border-color: #5daf34;
+    background: $success-active;
+    border-color: $success-active;
     color: #fff;
     outline: none;
   }
   &.is-plain {
-    background: #f0f9eb;
-    border-color: #c2e7b0;
-    color: #67c23a;
+    background: $success-plain-bg;
+    border-color: $success-plain-br;
+    color: $success;
   }
   &.is-plain:hover,
   &.is-plain:focus {
-    background: #67c23a;
-    border-color: #67c23a;
+    background: $success;
+    border-color: $success;
     color: #fff;
   }
   &.is-plain:active {
-    background: #5daf34;
-    border-color: #5daf34;
+    background: $success-active;
+    border-color: $success-active;
     color: #fff;
     outline: none;
   }
@@ -264,34 +264,34 @@ $active-color: #3a8ee6;
 .y-button-warning {
   color: #fff;
   fill:#fff;
-  background-color: #e6a23c;
-  border-color: #e6a23c;
+  background-color: $warning;
+  border-color: $warning;
   &:hover,
   &:focus {
-    background: #ebb563;
-    border-color: #ebb563;
+    background: $warning-hover;
+    border-color: $warning-hover;
     color: #fff;
   }
   &:active {
-    background: #cf9236;
-    border-color: #cf9236;
+    background: $warning-active;
+    border-color: $warning-active;
     color: #fff;
     outline: none;
   }
   &.is-plain {
-    background: #fdf6ec;
-    border-color: #f5dab1;
-    color: #e6a23c;
+    background: $warning-plain-bg;
+    border-color: $warning-plain-br;
+    color: $warning;
   }
   &.is-plain:hover,
   &.is-plain:focus {
-    background: #e6a23c;
-    border-color: #e6a23c;
+    background: $warning;
+    border-color: $warning;
     color: #fff;
   }
   &.is-plain:active {
-    background: #cf9236;
-    border-color: #cf9236;
+    background: $warning-active;
+    border-color: $warning-active;
     color: #fff;
     outline: none;
   }
@@ -308,34 +308,34 @@ $active-color: #3a8ee6;
 .y-button-danger {
   color: #fff;
   fill:#fff;
-  background-color: #f56c6c;
-  border-color: #f56c6c;
+  background-color: $danger;
+  border-color: $danger;
   &:hover,
   &:focus {
-    background: #f78989;
-    border-color: #f78989;
+    background: $danger-hover;
+    border-color: $danger-hover;
     color: #fff;
   }
   &:active {
-    background: #dd6161;
-    border-color: #dd6161;
+    background: $danger-active;
+    border-color: $danger-active;
     color: #fff;
     outline: none;
   }
   &.is-plain {
-    background: #fef0f0;
-    border-color: #fbc4c4;
-    color: #f56c6c;
+    background: $danger-plain-bg;
+    border-color: $danger-plain-br;
+    color: $danger;
   }
   &.is-plain:hover,
   &.is-plain:focus {
-    background: #f56c6c;
-    border-color: #f56c6c;
+    background: $danger;
+    border-color: $danger;
     color: #fff;
   }
   &.is-plain:active {
-    background: #dd6161;
-    border-color: #dd6161;
+    background: $danger-active;
+    border-color: $danger-active;
     color: #fff;
     outline: none;
   }
@@ -352,34 +352,34 @@ $active-color: #3a8ee6;
 .y-button-info {
   color: #fff;
   fill:#fff;
-  background-color: #909399;
-  border-color: #909399;
+  background-color: $info;
+  border-color: $info;
   &:hover,
   &:focus {
-    background: #a6a9ad;
-    border-color: #a6a9ad;
+    background: $info-hover;
+    border-color: $info-hover;
     color: #fff;
   }
   &:active {
-    background: #82848a;
-    border-color: #82848a;
+    background: $info-active;
+    border-color: $info-active;
     color: #fff;
     outline: none;
   }
   &.is-plain {
-    background: #f4f4f5;
-    border-color: #d3d4d6;
-    color: #909399;
+    background: $info-plain-bg;
+    border-color: $info-plain-br;
+    color: $info;
   }
   &.is-plain:hover,
   &.is-plain:focus {
-    background: #909399;
-    border-color: #909399;
+    background: $info;
+    border-color: $info;
     color: #fff;
   }
   &.is-plain:active {
-    background: #82848a;
-    border-color: #82848a;
+    background: $info-active;
+    border-color: $info-active;
     color: #fff;
     outline: none;
   }
@@ -394,17 +394,17 @@ $active-color: #3a8ee6;
 }
 .y-button-text{
 	border-color: transparent;
-	color: #409eff;
+	color: $primary;
 	background: transparent;
 	padding-left: 0;
 	padding-right: 0;
 	&:hover,&:focus{
-		color: #66b1ff;
+		color: $primary-hover;
 		border-color: transparent;
 		background-color: transparent;
 	}
 	&:active{
-		color: #3a8ee6;
+		color: $active-color;
 		border-color: transparent;
 		background-color: transparent;
 	}
